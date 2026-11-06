@@ -1,0 +1,40 @@
+/* Generated from the app's plan — change colours and fonts here. */
+:root {
+  --primary: #b91c1c;
+  --accent: #f59e0b;
+  --primary-text: #b91c1c;
+  --on-primary: #ffffff;
+  --on-accent: #ffffff;
+  --bg: #f6f6f9;
+  --surface: #ffffff;
+  --text: #15161c;
+  --muted: #5d6170;
+  --soft: rgba(21, 22, 28, 0.045);
+  --line: rgba(21, 22, 28, 0.08);
+  --border: var(--line);
+  --danger: #dc2626;
+  --ok-text: #15803d;
+  --warn-text: #b45309;
+  --info-text: #1d4ed8;
+
+  /* frosted glass */
+  --glass: rgba(255, 255, 255, 0.62);
+  --glass-strong: rgba(255, 255, 255, 0.82);
+  --glass-hover: rgba(255, 255, 255, 0.95);
+  --glass-border: rgba(255, 255, 255, 0.75);
+  --glass-highlight: rgba(255, 255, 255, 0.9);
+  --glass-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 2px rgba(21,22,28,0.04), 0 18px 44px -28px rgba(21,22,28,0.28);
+  --glass-shadow-lift: inset 0 1px 0 rgba(255,255,255,0.9), 0 2px 4px rgba(21,22,28,0.05), 0 28px 60px -28px rgba(21,22,28,0.38);
+  --input-bg: rgba(255, 255, 255, 0.7);
+  --input-border: rgba(21, 22, 28, 0.12);
+  --blob-opacity: 0.36;
+
+  --radius: 12px;
+  --shadow: var(--glass-shadow);
+  --font: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --heading-font: "Fraunces", Georgia, "Times New Roman", serif;
+  --heading-weight: 600;
+  --heading-tracking: -0.015em;
+  --display-tracking: -0.03em;
+  color-scheme: light;
+}
